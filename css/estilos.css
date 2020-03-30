@@ -1,11 +1,31 @@
 /*header{
     background: pink;
     color: red;
+    font-family: nombre de fuente -> sirve para cambiar el estilo de texto.
+    line-height: alto de linea
+    font-size :para asignar el tamaño de la fuente
+    font-weight: peso de fuente (100-900 , normal 400, bold 600)
+    font-style: normal, iralic, etc estilo de fuente
+    letter-spacing: espacio entre lineas se recomienda que sea negativo -.2px
+    text-transform: cambiar todo a mayusculas o minusculas;
+    text-decoration: underline //decorado del parrafo
 }*/
+
+
 body{
     font-family:  'Baloo Thambi 2', cursive;
 }
 
 h1, h2, h3, h4{
     font-family: 'Comic Neue', cursive;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+    /*text-transform: uppercase;
+    text-decoration: underline;*/
 }
