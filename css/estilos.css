@@ -29,3 +29,13 @@ h1{
     /*text-transform: uppercase;
     text-decoration: underline;*/
 }
+
+.project-details{
+    width: 500px;
+}
+.project-imageContainer{
+    width: 500px;
+}
+.hero{
+    height: 300px;
+}
