@@ -1,4 +1,11 @@
-header{
+/*header{
     background: pink;
     color: red;
+}*/
+body{
+    font-family:  'Baloo Thambi 2', cursive;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Comic Neue', cursive;
 }
