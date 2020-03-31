@@ -29,6 +29,9 @@ h1{
     color: white;
     /*text-transform: uppercase;
     text-decoration: underline;*/
+   /* margin: top right bottom left;*/
+     margin: 100px 500px 70px 30px;
+    /*margin: auto;/*
 }
 
 h1 strong{
@@ -48,6 +51,7 @@ h1 strong{
 
     border: 1px solid gray;
     border-radius: 10px;
+    margin-bottom: 15px;
    
     /* border-top-left-radius: 50px;
     border-top-right-radius: 40px;
