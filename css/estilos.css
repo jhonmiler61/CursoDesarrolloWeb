@@ -14,6 +14,7 @@
 
 body{
     font-family:  'Baloo Thambi 2', cursive;
+    margin: 0px;
 }
 
 h1, h2, h3, h4{
@@ -30,8 +31,8 @@ h1{
     /*text-transform: uppercase;
     text-decoration: underline;*/
    /* margin: top right bottom left;*/
-     margin: 100px 500px 70px 30px;
-    /*margin: auto;/*
+    /* margin: 100px 500px 70px 30px;*/
+    /*margin: auto;/*/
 }
 
 h1 strong{
@@ -52,6 +53,9 @@ h1 strong{
     border: 1px solid gray;
     border-radius: 10px;
     margin-bottom: 15px;
+    padding: 20px;
+    margin: 10px;
+    background: white;
    
     /* border-top-left-radius: 50px;
     border-top-right-radius: 40px;
@@ -75,6 +79,8 @@ h1 strong{
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #1b2127;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .header{
     background-color: #1b2127;
@@ -84,4 +90,27 @@ h1 strong{
     color: white;
     text-decoration: none;
     
+}
+
+.portfolio{
+
+    background: #fafafa;
+
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-wrap: nowrap;
+    flex-wrap: wrap;
+    /*flex-direction: column;
+    flex-direction: row;*/
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    flex-shrink: 0;
+    margin: 10px    ;
 }
