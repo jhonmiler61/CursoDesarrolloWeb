@@ -85,11 +85,47 @@ h1 strong{
 .header{
     background-color: #1b2127;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+  /*  align-items: center;*/
 }
 .header a{
     color: white;
     text-decoration: none;
+   
     
+}
+ol, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu{
+    height: inherit;
+}
+
+.header ol {
+    display: flex;
+    height: 90px;
+    height: inherit;    
+    align-items: center;
+    height: inherit;
+}
+
+header ol li {
+    height: inherit;
+
+}
+.header a{
+    display: block;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+figure{
+    margin: 0;
 }
 
 .portfolio{
@@ -100,16 +136,28 @@ h1 strong{
 
 .flexbox{
     display: flex;
+    height: 400px;
     flex-wrap: wrap;
     /*flex-wrap: nowrap;
     flex-wrap: wrap;
     /*flex-direction: column;
     flex-direction: row;*/
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: center;
+  /* justify-content: space-between; /*espaciado en elementos menos los costados*/
+    justify-content: space-evenly;/*mismo espaciado entre todos*/
+    justify-content: space-around;/*espacio en los costados la mitad, los demas igual*/
+    align-items: flex-start;
+    align-items: flex-end;
+    border: 1px solid blue;
+    align-items: center;
+    /*flex-direction: column;*/
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    width: 50px;
+    height: 50px;
     border: 1px solid red;
     flex-shrink: 0;
     margin: 10px    ;
