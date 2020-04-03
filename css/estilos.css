@@ -39,6 +39,15 @@ h1{
 h1 strong{
     color: #026fff;
 }
+h2 {
+    color: #026fff;
+    text-transform: uppercase;
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
 
 .project{
     /*border-top: 10px solid red;
@@ -55,7 +64,7 @@ h1 strong{
     border-radius: 10px;
     margin-bottom: 15px;
     padding: 20px;
-    margin: 10px;
+    
     background: white;
    
     /* border-top-left-radius: 50px;
@@ -63,15 +72,36 @@ h1 strong{
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 25px;*/
 
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+.project-title{
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project-course, .project-date, .project-url, project{
+    margin: 10px 0px;
+}
+.project-description{
+
+font-size: 20px;
+}
+
 
 .project-details{
     width: 500px;
 }
+
+.project-strong{
+    font-family: 'Comic Neue', cursive;
+}
 .project-imageContainer{
     width: 500px;
 }
+
 .hero{
     height: 300px;
     /**/
@@ -135,6 +165,7 @@ figure{
 .portfolio{
 
     background: #fafafa;
+    padding: 20px;
 
 }
 
@@ -183,4 +214,109 @@ text-decoration: none;
 }
 .footer a{
     color: aqua;
+}
+.event  {
+    
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    
+}
+
+.event-list{
+    display: flex;
+}
+.event-details{
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.event-description{
+    text-align: left;
+}
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+
+}
+.event-url{
+    border: 1px solid blue;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: blue;
+}
+.event-list-t {
+    margin-left: 20px;
+ 
+
+}
+.contact {
+    color: white;
+    background-color: #026fff;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social {
+    
+}
+.social-link{
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-link.twitter{
+    background-image: url(../imagenes/icono.png);
+    background-size: 50px 50px;
+}
+.social-link.facebook{
+    background-image: url(../imagenes/icono.png);
+    background-size: 50px 50px;
+}
+.social-link.github{
+    background-image: url(../imagenes/icono.png);
+    background-size: 50px 50px;
+}
+.social-link.instagram{
+    background-image: url(../imagenes/icono.png);
+    background-size: 50px 50px;
+}
+
+.form-email input{
+    border-color: gray;
+    padding: 10px 20px 10px 25px;
+    background-image: url(../imagenes/abyss.jpg);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form-email button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 7px;
+    width: 100px;
+    margin: 10px auto;
+    margin-top: 10px;
+}
+.form-email h3{
+    font-family: 'Courier New', Courier, monospace;
 }
